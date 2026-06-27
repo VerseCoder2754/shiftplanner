@@ -25,6 +25,7 @@ class Shift {
   String? locationName;
 
   // Status
+  @enumerated
   late ShiftStatus status;
 
   // Metadata
