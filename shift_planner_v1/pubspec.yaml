@@ -1,0 +1,48 @@
+name: shift_planner_v1
+description: "Android-First, Local-First Shift Planner with Smart Attendance."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Database (Local-First)
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.1
+  uuid: ^4.2.1
+
+  # Notifications (Smart Attendance)
+  flutter_local_notifications: ^16.3.0
+  timezone: ^0.9.2
+
+  # Math & Date (Precision)
+  decimal: ^2.3.3
+  intl: ^0.19.0
+
+  # UX
+  google_fonts: ^6.1.0
+  vibration: ^1.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # Code Generation
+  build_runner: ^2.4.7
+  isar_generator: ^3.1.0+1
+  riverpod_generator: ^2.3.9
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
